@@ -69,7 +69,7 @@
      <failOnMissingWebXml>false</failOnMissingWebXml>  
     </configuration>  
    </plugin>  
-   <plugin>
+  <!-- <plugin>
              <groupId>org.cloudfoundry</groupId>
              <artifactId>cf-maven-plugin</artifactId>
              <version>1.1.2</version>
@@ -85,7 +85,7 @@
 			               <env>
 			                   <ENV-VAR-NAME>env-var-value</ENV-VAR-NAME>
 			               </env>
-			               <!--<services>
+			               <services>
 			                   <service>
 			                       <name>my-rabbitmq</name>
 			                       <label>rabbitmq</label>
@@ -93,9 +93,9 @@
 			                       <version>n/a</version>
 			                       <plan>small_plan</plan>
 			                   </service>
-			               </services>-->
+			               </services>
 			           </configuration>
-         </plugin>
+         </plugin>-->
   </plugins>  
  </build> 
 </project>
